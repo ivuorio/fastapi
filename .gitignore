@@ -1,2 +1,6 @@
 #venvs
 .env
+
+#caches
+__pycache__
+*.pyc
