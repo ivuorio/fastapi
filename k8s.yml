@@ -13,7 +13,7 @@ spec:
         app: hello-world
     spec:
       containers:
-      - image: okteto/ivuorio/fastapi
+      - image: ivuorio/fastapi
         name: hello-world
 
 ---
