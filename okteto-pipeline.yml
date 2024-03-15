@@ -1,0 +1,4 @@
+deploy:
+  - okteto build -t okteto.dev/hello-world:latest
+  - kubectl apply -f k8s
+  - kubectl replace -f k8s
